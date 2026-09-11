@@ -1,4 +1,4 @@
-{
+window.SENTENCES_AUDIO_MAP = {
   "Collect all carrots starting with aw_au": "assets/audios/sentences/bunny_collect_aw_au.mp3",
   "Find words starting with aw_au": "assets/audios/sentences/bunny_find_aw_au.mp3",
   "Find words starting with letter aw_au": "assets/audios/sentences/bunny_find_let_aw_au.mp3",
@@ -13,4 +13,4 @@
   "We can see tall giraffes and lions at the zoo. ... Where can we see wild animals?": "assets/audios/sentences/bunny_act_edcb1a49.mp3",
   "The red fire truck rushes to put out the fire. ... Which truck puts out the fire?": "assets/audios/sentences/bunny_act_40e3d888.mp3",
   "Mother buys fresh bread and fruit at the supermarket. ... Where does mother buy food?": "assets/audios/sentences/bunny_act_cfeaa4af.mp3"
-}
+};
