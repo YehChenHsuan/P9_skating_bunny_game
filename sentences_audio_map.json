@@ -1,0 +1,13 @@
+{
+  "Collect all carrots starting with aw/au": "assets/audios/sentences/bunny_collect_aw_au.mp3",
+  "Find words starting with aw/au": "assets/audios/sentences/bunny_find_aw_au.mp3",
+  "Collect all carrots starting with wa": "assets/audios/sentences/bunny_collect_wa.mp3",
+  "Find words starting with wa": "assets/audios/sentences/bunny_find_wa.mp3",
+  "Collect all carrots starting with gh/ph": "assets/audios/sentences/bunny_collect_gh_ph.mp3",
+  "Find words starting with gh/ph": "assets/audios/sentences/bunny_find_gh_ph.mp3",
+  "The doctor helps people at the hospital. ... Where is the doctor?": "assets/audios/sentences/bunny_act_dca42ea6.mp3",
+  "I read good books at the library. ... Where can we read books?": "assets/audios/sentences/bunny_act_1f8d329d.mp3",
+  "He can buy fresh milk at the supermarket. ... Where can he buy milk?": "assets/audios/sentences/bunny_act_f7191300.mp3",
+  "We can see giant giraffes at the zoo. ... Where can we see animals?": "assets/audios/sentences/bunny_act_c0b5be46.mp3",
+  "The police officer can drive the police car. ... What does the officer drive?": "assets/audios/sentences/bunny_act_d1cdd3e1.mp3"
+}
