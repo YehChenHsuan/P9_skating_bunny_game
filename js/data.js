@@ -1,9 +1,10 @@
 /**
  * ALICE ESL Phonics P9 - 小兔冰上拼讀大冒險題庫
  * 課本學習範圍：Page 02 - 12
- * 主題：Places Around Town, Vehicles & Special Sounds
+ * 主題：Places Around Town & Vehicles
  */
 
+window.BOOK_ID = "P9";
 const P9_VOCABULARY = [
   {
     "id": "August",
@@ -665,16 +666,13 @@ const P9_VOCABULARY = [
 
 // 自然發音/首音分組（對應課本 Page 02 - 12）
 const PHONICS_GROUPS = {
-  "aw/au": [
+  "aw_au": [
     "autumn",
     "August",
-    "craw",
     "draw",
-    "laugh",
-    "pause",
-    "sauce",
     "saw",
-    "straw"
+    "straw",
+    "sauce"
   ],
   "wa": [
     "walk",
@@ -682,13 +680,10 @@ const PHONICS_GROUPS = {
     "want",
     "wash",
     "swallow",
-    "swan",
-    "swamp"
+    "swan"
   ],
-  "gh/ph": [
+  "gh_ph": [
     "cough",
-    "enough",
-    "rough",
     "laugh",
     "elephant",
     "graph",
@@ -701,64 +696,59 @@ const PHONICS_GROUPS = {
 // 課文動作與問答情境題庫
 const ANIMAL_ACTION_QUESTIONS = [
   {
-    "subject": "Doctor",
-    "action": "help",
-    "sentence": "The doctor helps people at the hospital.",
-    "question": "Where is the doctor?",
-    "options": [
-      "hospital",
-      "park",
-      "airport"
-    ],
-    "correct": "hospital"
-  },
-  {
-    "subject": "Student",
-    "action": "read",
-    "sentence": "I read good books at the library.",
-    "question": "Where can we read books?",
+    "sentence": "I read interesting books at the city library.",
+    "question": "Where do I read books?",
+    "ttsPrompt": "I read interesting books at the city library. Where do I read books?",
     "options": [
       "library",
       "bank",
-      "grocery"
+      "park"
     ],
     "correct": "library"
   },
   {
-    "subject": "Boy",
-    "action": "buy",
-    "sentence": "He can buy fresh milk at the supermarket.",
-    "question": "Where can he buy milk?",
+    "sentence": "The yellow taxi takes people around the town.",
+    "question": "What vehicle takes people around town?",
+    "ttsPrompt": "The yellow taxi takes people around the town. What vehicle takes people?",
     "options": [
-      "supermarket",
-      "zoo",
-      "school"
+      "taxi",
+      "airplane",
+      "bus"
     ],
-    "correct": "supermarket"
+    "correct": "taxi"
   },
   {
-    "subject": "Family",
-    "action": "visit",
-    "sentence": "We can see giant giraffes at the zoo.",
-    "question": "Where can we see animals?",
+    "sentence": "We can see tall giraffes and lions at the zoo.",
+    "question": "Where can we see wild animals?",
+    "ttsPrompt": "We can see tall giraffes and lions at the zoo. Where can we see animals?",
     "options": [
       "zoo",
-      "pharmacy",
-      "church"
+      "school",
+      "hospital"
     ],
     "correct": "zoo"
   },
   {
-    "subject": "Police",
-    "action": "drive",
-    "sentence": "The police officer can drive the police car.",
-    "question": "What does the officer drive?",
+    "sentence": "The red fire truck rushes to put out the fire.",
+    "question": "Which truck puts out the fire?",
+    "ttsPrompt": "The red fire truck rushes to put out the fire. Which truck puts out fire?",
     "options": [
+      "fire truck",
       "police car",
-      "taxi",
       "ambulance"
     ],
-    "correct": "police car"
+    "correct": "fire truck"
+  },
+  {
+    "sentence": "Mother buys fresh bread and fruit at the supermarket.",
+    "question": "Where does mother buy food?",
+    "ttsPrompt": "Mother buys fresh bread and fruit at the supermarket. Where does mother buy food?",
+    "options": [
+      "supermarket",
+      "airport",
+      "church"
+    ],
+    "correct": "supermarket"
   }
 ];
 
